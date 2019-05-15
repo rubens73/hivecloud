@@ -1,0 +1,1 @@
+PratosDTO [nome=54646456, acompanhamentos=[ert543tt4], preco=11]
