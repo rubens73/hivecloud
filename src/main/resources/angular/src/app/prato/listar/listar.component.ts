@@ -40,4 +40,8 @@ export class ListarComponent implements OnInit {
     localStorage.setItem("nome",prato.nome.toString());
     this.router.navigate(["editar"]);
   }
+  
+  Pedido():void{
+    alert("Funcionalidade em desenvolvimento")
+  }
 }
