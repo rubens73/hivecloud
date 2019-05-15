@@ -24,20 +24,30 @@ Ferramenta | Descrição
  Angular | Frontend 
  Bootstrap | Frontend
  
- #Como utilizar
+ # Como utilizar
  
- ##Backend
+ ## Backend
  Para utilizar o backend será necessário clonar o projeto para máquina instalar as dependências do pom.xml
  (Spring, postgres e Swagger) e rodar em localhost.
  <pre>http://localhost:8080/</pre>
  
- ##Frontend
+ ## Frontend
  Para o frontend será necessário criar um projeto angular com o nome cardápio
  <pre>ng new cardapio</pre>
  Pegar o código fonte dentro do projeto spring colocar no projeto cardapio do angular
  <pre>https://github.com/rubens73/hivecloud/tree/master/src/main/resources/angular/src</pre>
- e iniciar o servidor angular e acessar o fron pelo localhost
- <pre>http://localhost:4200/</pre>
+ e ir para o diretorio iniciar o servidor angular e acessar o fron pelo localhost
+ <pre> cd cardapio
+ ng serve --open
+ http://localhost:4200/</pre>
+ 
+  # Snapshots
+  ## Tela listar
+ ![](https://github.com/rubens73/hivecloud/blob/master/tela_listar.png)
+  
+  ## Documentação
+  ![](https://github.com/rubens73/hivecloud/blob/master/documenta%C3%A7%C3%A3o.png)
+  
  
 ### O que melhorar:
 * A depender da necessidade usar um banco de dados NoSql para uma grande quantidade de registros
