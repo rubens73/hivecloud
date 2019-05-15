@@ -6,16 +6,11 @@ import java.io.IOException;
 
 public class CriarArquivo {
 	
-	public void criarArquivoTxt(String pTexto) {
+	public void criarArquivoTxt(String pNome, String pTexto) {
 		FileWriter arquivo;
 		try {
-			
-			String fileName = "config/sample.txt";
-	        ClassLoader classLoader = new CriarArquivo().getClass().getClassLoader();
-	 
-	        File file = new File(classLoader.getResource(fileName).getFile());
-			System.out.println(file.toString());
-			//String path = "C:/ws_spring/hivecloud/src/main/resources/";
+			String path = "./src/main/resources/";
+	        	File file = new File(path+"/prato_"+pNome+".txt");
 			
 			arquivo = new FileWriter(file);
 			arquivo.write(pTexto);
