@@ -40,9 +40,11 @@ public class PratosServiceImpl implements PratosService {
 
 	public PratosDTO salvarPratos(PratosDTO pPratosDTO) {
 		PratosDTO pratosValido = new PratosDTO();
-
+		CriarArquivo ca = new CriarArquivo();
+		
 		try {
 			pratosValido = this.validarPrato(pPratosDTO);
+			ca.criarArquivoTxt(pPratosDTO.getNome(), pPratosDTO.toString());
 			return this.pratosRepository.save(pratosValido.converterParaObjeto()).converterParaDTO();
 		}catch (Exception e) {
 			e.printStackTrace();
