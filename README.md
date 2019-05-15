@@ -13,8 +13,6 @@ contendo um ou mais pratos e seus respectivos acompanhamentos.
 
 # Sobre a aplicação
 
-A [aplicação] foi desenvolvida com as seguintes ferramentas:
-
 Ferramenta | Descrição
  ------ | ------
  Java 1.8 | Desenvolvimento
