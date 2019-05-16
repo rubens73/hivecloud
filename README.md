@@ -34,9 +34,9 @@ Ferramenta | Descrição
  ## Frontend
  Para o frontend será necessário criar um projeto angular com o nome cardápio
  <pre>ng new cardapio</pre>
- Pegar o código fonte dentro do projeto spring colocar no projeto cardapio do angular
+ Pegar o código fonte dentro do projeto spring colocar no projeto cardápio do angular
  <pre>https://github.com/rubens73/hivecloud/tree/master/src/main/resources/angular/src</pre>
- e ir para o diretorio iniciar o servidor angular e acessar o fron pelo localhost
+ e ir para o diretório iniciar o servidor angular e acessar o frontend pelo localhost
  <pre> cd cardapio
  ng serve --open
  http://localhost:4200/</pre>
@@ -46,6 +46,7 @@ Ferramenta | Descrição
  ![](https://github.com/rubens73/hivecloud/blob/master/tela_listar.png)
   
   ## Documentação
+  <pre>http://localhost:8080/swagger-ui.html</pre>
   ![](https://github.com/rubens73/hivecloud/blob/master/documenta%C3%A7%C3%A3o.png)
   
  
@@ -62,3 +63,8 @@ Ferramenta | Descrição
 [git flow]: <https://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html>
 [SonarQube]: <https://www.sonarqube.org/>
 [Trello]: <https://trello.com/>
+
+# Observações:
+* Como mencionado em entrevista o frontend foi a parte mais difícil, pois ainda estou aprendendo.
+* Um arquivo sera criado quando um requisição  post for feita.
+* O código fonte do angular está no resources/angular/src.
