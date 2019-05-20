@@ -6,7 +6,7 @@ contendo um ou mais pratos e seus respectivos acompanhamentos.
 
 # Requisitos Mínimos:
 
-## Backand
+## Backend
 - Utilizar Java 8, spring e maven
 ## Frontend:
 - Utilizar a última versão do angular
